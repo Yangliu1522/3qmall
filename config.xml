@@ -1,0 +1,82 @@
+ <widget id="A6047443739240"  version="1.8.4">
+
+    <name>Macau 3Qmall</name>
+
+    <description>
+
+        Example For APICloud.
+
+    </description>
+
+    <author email="developer@apicloud.com" href="http://www.apicloud.com">
+
+        Developer
+
+    </author>
+
+    <content src="index.html" />
+
+    <access origin="*" />
+
+    <preference name="pageBounce" value="false"/>
+
+	<preference name="appBackground" value="rgba(0,0,0,0.0)"/>
+
+	<preference name="windowBackground" value="rgba(0,0,0,0.0)"/>
+
+	<preference name="frameBackgroundColor" value="rgba(0,0,0,0.0)"/>
+
+	<preference name="hScrollBarEnabled" value="false"/>
+
+	<preference name="vScrollBarEnabled" value="false"/>
+
+	<preference name="autoLaunch" value="true"/>
+
+	<preference name="fullScreen" value="false"/>
+
+	<preference name="autoUpdate" value="true" />
+
+	<preference name="smartUpdate" value="false" />
+
+	<preference name="debug" value="true"/>
+
+	<preference name="statusBarAppearance" value="true"/>
+
+	<permission name="readPhoneState" />
+
+	<permission name="camera" />
+
+	<permission name="record" />
+
+	<permission name="location" />
+
+	<permission name="fileSystem" />
+
+	<permission name="internet" />
+
+	<permission name="bootCompleted" />
+
+	<permission name="hardware" />
+  <preference name="userAgent" value="CK 2.0"/>
+  <feature name="aliPay">
+    <param name="urlScheme" value="A6047443739240" />
+  </feature>
+  <feature name="wxPay">
+    <param name="urlScheme" value="wx27979a7807d0a35b"/>
+    <param name="apiKey" value="wx27979a7807d0a35b"/>
+    <param name="apiSecret" value="2b057c05793bb83ed8400dd14cc343e6"/>
+ </feature>
+ <!-- <feature name="ajpush">
+       <param name="app_key" value="1be94f7118342b764b66dd17" />
+       <param name="channel" value="1be94f7118342b764b66dd17" />
+ </feature> -->
+ <feature name="wx">
+      <param name="urlScheme" value="wx27979a7807d0a35b"/>
+      <param name="apiKey" value="wx27979a7807d0a35b"/>
+      <param name="apiSecret" value="2b057c05793bb83ed8400dd14cc343e6"/>
+ </feature>
+  <!-- <feature name="QQplus">
+    <param name="urlScheme" value="cc94faa9e7e2b580eececc4086089fd6"/>
+    <param name="apiKey" value="101838056"/>
+  </feature> -->
+</widget>
